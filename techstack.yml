@@ -1,7 +1,8 @@
 repo_name: donaldww/FastAPI-The-Complete-Course
 report_id: d587973d8d61375088a46bd5448b4a63
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T17:08:37+00:00'
+timestamp: '2024-01-04T15:02:50+00:00'
 requested_by: donaldww
 provider: github
 branch: main
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,7 +27,9 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
-  detection_source: Project 4/Starting Files/Front End Starting Files/static/todo/js/jquery-slim.js
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course/blob/main/Project
+    4/File Project/fastapifullstacktodos/static/todo/js/jquery-slim.js
+  detection_source: Project 4/File Project/fastapifullstacktodos/static/todo/js/jquery-slim.js
   last_updated_by: Eric Roby
   last_updated_on: 2022-02-14 15:00:07.000000000 Z
 - name: Mako
@@ -37,6 +41,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/3583/default_43e3ee00dcc48a40f6fcba33551e4f5a99a10537.png
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -47,6 +52,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course
   detection_source: Repo Metadata
 - name: SQL
   description: It is a domain-specific language used in programming
@@ -56,7 +62,9 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
-  detection_source: Database Scripts/PostgreSQLScript.sql
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course/blob/main/Database
+    Scripts/MySQLScript.sql
+  detection_source: Database Scripts/MySQLScript.sql
   last_updated_by: Eric Roby
   last_updated_on: 2023-04-17 15:04:18.000000000 Z
 - name: Git
@@ -67,6 +75,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -76,13 +85,14 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Donald Wilson
   last_updated_on: 2023-06-11 10:58:00.000000000 Z
 - name: anyio
   description: High level compatibility layer for multiple asynchronous event loop
     implementations
-  package_url: https://pypi.org/anyio
+  package_url: https://pypi.org/project/anyio
   version: 3.7.0
   license: MIT
   open_source: true
@@ -90,13 +100,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20757/default_c1e4fc9b7faffe723aa1e18d3dd3049b39849e4d.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Donald Wilson
   last_updated_on: 2023-06-11 11:09:03.000000000 Z
 - name: bcrypt
   description: Modern password hashing for your software and your servers
-  package_url: https://pypi.org/bcrypt
+  package_url: https://pypi.org/project/bcrypt
   version: 4.0.1
   license: Apache-2.0
   open_source: true
@@ -104,13 +114,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20031/default_242158225818ea25f0ab9031a46e17f8ff8246cb.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Donald Wilson
   last_updated_on: 2023-06-11 11:09:03.000000000 Z
 - name: cffi
   description: Foreign Function Interface for Python calling C code
-  package_url: https://pypi.org/cffi
+  package_url: https://pypi.org/project/cffi
   version: 1.15.1
   license: MIT
   open_source: true
@@ -118,13 +128,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19909/default_67f813d4aac73d024261bcfded6ef2b918e384a0.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Donald Wilson
   last_updated_on: 2023-06-11 11:09:03.000000000 Z
 - name: click
   description: Composable command line interface toolkit
-  package_url: https://pypi.org/click
+  package_url: https://pypi.org/project/click
   version: 8.1.3
   license: BSD-3-Clause
   open_source: true
@@ -132,14 +142,14 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19830/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Donald Wilson
   last_updated_on: 2023-06-11 11:09:03.000000000 Z
 - name: cryptography
   description: Cryptography is a package which provides cryptographic recipes and
     primitives to Python developers
-  package_url: https://pypi.org/cryptography
+  package_url: https://pypi.org/project/cryptography
   version: 41.0.1
   license: BSD-3-Clause,Apache-2.0
   open_source: true
@@ -147,7 +157,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19850/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Donald Wilson
   last_updated_on: 2023-06-11 11:09:03.000000000 Z
@@ -158,6 +168,12 @@ tools:
     detected_date: Jul 15
     severity: high
     first_patched: 41.0.2
+  - name: cryptography vulnerable to NULL-dereference when loading PKCS7 certificates
+    cve_id: CVE-2023-49083
+    cve_url: https://github.com/advisories/GHSA-jfhm-5ghh-2f97
+    detected_date: Nov 29
+    severity: moderate
+    first_patched: 41.0.6
   - name: pyca/cryptography's wheels include vulnerable OpenSSL
     cve_id: 
     cve_url: https://github.com/advisories/GHSA-jm77-qphf-c4w8
@@ -172,7 +188,7 @@ tools:
     first_patched: 41.0.4
 - name: ecdsa
   description: ECDSA cryptographic signature library
-  package_url: https://pypi.org/ecdsa
+  package_url: https://pypi.org/project/ecdsa
   version: 0.18.0
   license: MIT
   open_source: true
@@ -180,13 +196,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19979/default_a82f3cd9981909e38152c6f66eefe94bed2aa5ca.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Donald Wilson
   last_updated_on: 2023-06-11 11:09:03.000000000 Z
 - name: fastapi
   description: FastAPI framework
-  package_url: https://pypi.org/fastapi
+  package_url: https://pypi.org/project/fastapi
   version: 0.96.1
   license: MIT
   open_source: true
@@ -194,13 +210,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20520/default_ded6d17aa418fbd05ff28b85345c77ab878c6b37.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Donald Wilson
   last_updated_on: 2023-06-11 11:09:03.000000000 Z
 - name: idna
   description: Internationalized Domain Names in Applications
-  package_url: https://pypi.org/idna
+  package_url: https://pypi.org/project/idna
   version: '3.4'
   license: BSD-3-Clause
   open_source: true
@@ -208,13 +224,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19863/default_f24e00e4cb7620e436f9d06e0305070e1335922a.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Donald Wilson
   last_updated_on: 2023-06-11 11:09:03.000000000 Z
 - name: passlib
   description: Comprehensive password hashing framework supporting over 30 schemes
-  package_url: https://pypi.org/passlib
+  package_url: https://pypi.org/project/passlib
   version: 1.7.4
   license: BSD-3-Clause
   open_source: true
@@ -222,13 +238,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19992/default_aa5b3e77340c2bb80cd8e6a59cd82909abcdcd63.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Donald Wilson
   last_updated_on: 2023-06-11 11:09:03.000000000 Z
 - name: pyasn1
   description: ASN.1 types and codecs
-  package_url: https://pypi.org/pyasn1
+  package_url: https://pypi.org/project/pyasn1
   version: 0.5.0
   license: BSD-2-Clause
   open_source: true
@@ -236,13 +252,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19915/default_37434feaacace26053e41d6e4802560af16ebe44.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Donald Wilson
   last_updated_on: 2023-06-11 11:09:03.000000000 Z
 - name: pycparser
   description: C parser in Python
-  package_url: https://pypi.org/pycparser
+  package_url: https://pypi.org/project/pycparser
   version: '2.21'
   license: BSD-3-Clause
   open_source: true
@@ -250,13 +266,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20072/default_d7fc4eabe57370d13c2a8ad2f7f6bb876c96c66d.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Donald Wilson
   last_updated_on: 2023-06-11 11:09:03.000000000 Z
 - name: pydantic
   description: Data validation and settings management using python 3.6 type hinting
-  package_url: https://pypi.org/pydantic
+  package_url: https://pypi.org/project/pydantic
   version: 1.10.9
   license: MIT
   open_source: true
@@ -264,13 +280,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Donald Wilson
   last_updated_on: 2023-06-11 11:09:03.000000000 Z
 - name: python-dotenv
   description: Add .env support to your django/flask apps in development and deployments
-  package_url: https://pypi.org/python-dotenv
+  package_url: https://pypi.org/project/python-dotenv
   version: 1.0.0
   license: BSD-3-Clause
   open_source: true
@@ -278,13 +294,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Donald Wilson
   last_updated_on: 2023-06-11 11:09:03.000000000 Z
 - name: python-jose
   description: JOSE implementation in Python
-  package_url: https://pypi.org/python-jose
+  package_url: https://pypi.org/project/python-jose
   version: 3.3.0
   license: MIT
   open_source: true
@@ -292,13 +308,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20096/default_5297f13e5d732665caff8f16d9bfcd71481f98b6.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Donald Wilson
   last_updated_on: 2023-06-11 11:09:03.000000000 Z
 - name: rsa
   description: Pure-Python RSA implementation
-  package_url: https://pypi.org/rsa
+  package_url: https://pypi.org/project/rsa
   version: '4.9'
   license: Apache-2.0
   open_source: true
@@ -306,13 +322,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20021/default_faea030602e3d71554c57e6fc53190ac830da00d.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Donald Wilson
   last_updated_on: 2023-06-11 10:58:00.000000000 Z
 - name: six
   description: Python 2 and 3 compatibility utilities
-  package_url: https://pypi.org/six
+  package_url: https://pypi.org/project/six
   version: 1.16.0
   license: MIT
   open_source: true
@@ -320,13 +336,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Donald Wilson
   last_updated_on: 2023-06-11 10:58:00.000000000 Z
 - name: typing-extensions
   description: Backported and Experimental Type Hints for Python 3.5+
-  package_url: https://pypi.org/typing-extensions
+  package_url: https://pypi.org/project/typing-extensions
   version: 4.6.3
   license: Python-2.0
   open_source: true
@@ -334,13 +350,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19875/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Donald Wilson
   last_updated_on: 2023-06-11 11:09:03.000000000 Z
 - name: websockets
   description: An implementation of the WebSocket Protocol
-  package_url: https://pypi.org/websockets
+  package_url: https://pypi.org/project/websockets
   version: 11.0.3
   license: BSD-3-Clause
   open_source: true
@@ -348,7 +364,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19951/default_fbe690a687f1af7dc36ac3d526708be3294c4cc9.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/donaldww/FastAPI-The-Complete-Course/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Donald Wilson
   last_updated_on: 2023-06-11 11:09:03.000000000 Z
