@@ -3,10 +3,10 @@
 ## Tech Stack
 donaldww/FastAPI-The-Complete-Course is built on the following main stack:
 
-- [Python](https://www.python.org) – Languages
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
 - [Mako](https://github.com/zzzeek/mako) – Templating Languages & Extensions
+- [Python](https://www.python.org) – Languages
+- [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
 
 Full tech stack [here](/techstack.md)
 
@@ -16,10 +16,10 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 donaldww/FastAPI-The-Complete-Course is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png' alt='SQL'/> [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/3583/default_43e3ee00dcc48a40f6fcba33551e4f5a99a10537.png' alt='Mako'/> [Mako](https://github.com/zzzeek/mako) – Templating Languages & Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png' alt='SQL'/> [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
 
 Full tech stack [here](/techstack.md)
 
@@ -30,7 +30,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [donaldww/FastAPI-The-Complete-Course](https://github.com/donaldww/FastAPI-The-Complete-Course)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|25<br/>Tools used|01/05/24 <br/>Report generated|
+|25<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -111,9 +111,9 @@ Full tech stack [here](/techstack.md)
 |[bcrypt](https://pypi.org/project/bcrypt)|v4.0.1|06/11/23|Donald Wilson |Apache-2.0|N/A|
 |[cffi](https://pypi.org/project/cffi)|v1.15.1|06/11/23|Donald Wilson |MIT|N/A|
 |[click](https://pypi.org/project/click)|v8.1.3|06/11/23|Donald Wilson |BSD-3-Clause|N/A|
-|[cryptography](https://pypi.org/project/cryptography)|v41.0.1|06/11/23|Donald Wilson |BSD-3-Clause,Apache-2.0|[CVE-2023-38325](https://github.com/advisories/GHSA-cf7p-gm2m-833m) (High)<br/>[CVE-2023-49083](https://github.com/advisories/GHSA-jfhm-5ghh-2f97) (Moderate)<br/>[](https://github.com/advisories/GHSA-jm77-qphf-c4w8) (Low)<br/>[](https://github.com/advisories/GHSA-v8gr-m533-ghj9) (Low)|
-|[ecdsa](https://pypi.org/project/ecdsa)|v0.18.0|06/11/23|Donald Wilson |MIT|N/A|
-|[fastapi](https://pypi.org/project/fastapi)|v0.96.1|06/11/23|Donald Wilson |MIT|N/A|
+|[cryptography](https://pypi.org/project/cryptography)|v41.0.1|06/11/23|Donald Wilson |BSD-3-Clause,Apache-2.0|[CVE-2024-26130](https://github.com/advisories/GHSA-6vqw-3v5j-54x4) (High)<br/>[CVE-2023-38325](https://github.com/advisories/GHSA-cf7p-gm2m-833m) (High)<br/>[CVE-2023-50782](https://github.com/advisories/GHSA-3ww4-gg4f-jr7f) (High)<br/>[CVE-2023-49083](https://github.com/advisories/GHSA-jfhm-5ghh-2f97) (Moderate)<br/>[CVE-2024-0727](https://github.com/advisories/GHSA-9v9h-cgj8-h64p) (Moderate)<br/>[](https://github.com/advisories/GHSA-v8gr-m533-ghj9) (Low)<br/>[](https://github.com/advisories/GHSA-jm77-qphf-c4w8) (Low)|
+|[ecdsa](https://pypi.org/project/ecdsa)|v0.18.0|06/11/23|Donald Wilson |MIT|[CVE-2024-23342](https://github.com/advisories/GHSA-wj6h-64fc-37mp) (High)|
+|[fastapi](https://pypi.org/project/fastapi)|v0.96.1|06/11/23|Donald Wilson |MIT|[](https://github.com/advisories/GHSA-qf9m-vfgh-m389) (High)<br/>[CVE-2024-24762](https://github.com/advisories/GHSA-2jv5-9r88-3w3p) (High)|
 |[idna](https://pypi.org/project/idna)|v3.4|06/11/23|Donald Wilson |BSD-3-Clause|N/A|
 |[passlib](https://pypi.org/project/passlib)|v1.7.4|06/11/23|Donald Wilson |BSD-3-Clause|N/A|
 |[pyasn1](https://pypi.org/project/pyasn1)|v0.5.0|06/11/23|Donald Wilson |BSD-2-Clause|N/A|
