@@ -1,44 +1,28 @@
-[tool.poetry]
+[project]
 name = "fastapi-the-complete-course"
 version = "0.1.0"
-description = ""
-authors = ["Donald Wilson <donaldww@icepointmedia.ca>"]
+description = "FastAPI Complete Course - Learning Projects"
 readme = "README.md"
-packages = [{include = "fastapi_the_complete_course"}]
+requires-python = ">=3.11,<3.14"
+authors = [{ name = "Donald Wilson", email = "donaldww@icloud.com" }]
+dependencies = [
+  "anyio>=4.0.0",
+  "bcrypt>=4.1.0",
+  "cryptography>=41.0.0",
+  "fastapi>=0.110.0",
+  "openai>=1.0.0",
+  "passlib[bcrypt]>=1.7.4",
+  "psycopg2-binary>=2.9.9",
+  "pydantic>=2.0.0",
+  "pymysql>=1.1.0",
+  "python-dotenv>=1.0.0",
+  "python-jose[cryptography]>=3.3.0",
+  "python-multipart>=0.0.6",
+  "pyyaml>=6.0.1",
+  "sqlalchemy>=2.0.23",
+  "uvicorn[standard]>=0.24.0",
+]
 
-[tool.poetry.dependencies]
-python = "^3.11"
-anyio = ">=3.6.2"
-bcrypt = ">=4.0.1"
-cffi = ">=1.15.1"
-click = ">=8.1.3"
-cryptography = ">=39.0.2"
-ecdsa = ">=0.18.0"
-fastapi = ">=0.95.0"
-h11 = ">=0.14.0"
-httptools = ">=0.5.0"
-idna = ">=3.4"
-passlib = ">=1.7.4"
-psycopg2-binary = "2.9.6"
-pyasn1 = ">=0.4.8"
-pycparser = ">=2.21"
-pydantic = ">=1.10.5"
-pymysql = ">=1.0.3"
-python-dotenv = ">=1.0.0"
-python-jose = ">=3.3.0"
-python-multipart = ">=0.0.6"
-pyyaml = ">=6.0"
-rsa = ">=4.9"
-six = ">=1.16.0"
-sniffio = ">=1.3.0"
-sqlalchemy = ">=2.0.7"
-starlette = ">=0.26.1"
-typing-extensions = ">=4.5.0"
-uvicorn = ">=0.22.0"
-watchfiles = ">=0.18.1"
-websockets = ">=10.4"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[tool.uv]
+dev-dependencies = []
+package = false
